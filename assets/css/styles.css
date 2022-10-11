@@ -4,6 +4,11 @@ html, body{
 	background-color: #08485f; 
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
 a {
   color: #00d1b2;
 }
@@ -78,3 +83,33 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
